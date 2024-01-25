@@ -88,7 +88,9 @@ h1 {
 </style>
 
 <!--
-Here is another comment.
+Typescript è necessario per imparare React ? No. L'ho inserito io ? Si. 
+Questo corso è stato pensato per rendere veramente preparati gli studenti sia dal punto lavorativo che della comprensione, per questo motivo ho deciso di inserire Typescript come al suo interno. 
+Esso ci permetterà di capire meglio come funziona React obblindoci e obbligandomi a spiegare alcuni concetti che molto spesso rimangono "sotto al tappeto".
 -->
 
 ---
@@ -100,6 +102,13 @@ background: https://miro.medium.com/v2/resize:fit:1400/format:webp/1*odW0CyTVxMV
 # Tool e dev environment
 
 All'interno del corso ci serviremo di alcuni tool e di configurare un ambiente di sviluppo che ci permetta di eseguire React e Typescript.
+
+<!--
+
+Prima di iniziare il corso è necessario configurare il proprio ambiente di sviluppo e assicurarsi di avere tutti i tool, i pacchetti e le dipendenze necessarie per poter seguire eseguire React.
+
+-->
+
 
 ---
 layout: image-right
@@ -134,6 +143,11 @@ image: /graphic_1.png
 }
 </style>
 
+
+<!--
+ V8 è un motore JavaScript open source sviluppato da Google incorporato nel browser Google Chrome. È progettato per eseguire il codice JavaScript in modo efficiente e veloce e la compilazione JIT (Just-In-Time), che traduce il codice JavaScript in codice nativo della macchina in tempo reale per migliorare le prestazioni di esecuzione.
+-->
+
 ---
 
 # Dev environment Deep Dive
@@ -142,13 +156,7 @@ image: /graphic_1.png
 
 [^1]: [NVM](https://github.com/nvm-sh/nvm)
 <!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
+ V8 è un motore JavaScript open source sviluppato da Google incorporato nel browser Google Chrome. È progettato per eseguire il codice JavaScript in modo efficiente e veloce e la compilazione JIT (Just-In-Time), che traduce il codice JavaScript in codice nativo della macchina in tempo reale per migliorare le prestazioni di esecuzione.
 -->
 
 ---
@@ -221,9 +229,11 @@ const Counter:React.FC<{count?: number}> = (props) => {
 }
 
 <Counter count={10} />
+<Counter count={200} />
 ```
 
-<Counter :count=10 mt='10'/>
+<Counter count=10 mt='10'/>
+<Counter count=100 mt='10'/>
 <!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
 <script setup lang="ts">
 const final = {
@@ -252,8 +262,7 @@ const final = {
 
 ---
 preload: false
-transition: fade-out
-layout: slide-right
+transition: slide-left
 ---
 
 # React e il Virtual DOM
