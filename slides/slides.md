@@ -231,8 +231,8 @@ const Counter:React.FC<{count?: number}> = (props) => {
 <Counter count={200} />
 ```
 
-<Counter id="bcwbcew" :count=10 mt='10'/>
-<Counter id="bshbcsbckhd" :count=100 mt='10'/>
+<Contatore id="bcwbcew" :count=10 mt='10'/>
+<Contatore id="bshbcsbckhd" :count=100 mt='10'/>
 <!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
 <script setup lang="ts">
 const final = {
