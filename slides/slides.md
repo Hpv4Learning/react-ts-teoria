@@ -230,6 +230,7 @@ const Counter:React.FC<{count?: number}> = (props) => {
 
 <Counter count={10} />
 <Counter count={200} />
+
 ```
 
 <Counter id="bcwbcew" :count=10 mt='10'/>
