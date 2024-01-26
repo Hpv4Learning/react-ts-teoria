@@ -177,7 +177,6 @@ Che cosa è React? Perché è così popolare? Come funziona?
 </div>
 
 ---
-preload: false
 transition: fade-out
 layout: two-cols
 class: px-2
@@ -230,7 +229,6 @@ const Counter:React.FC<{count?: number}> = (props) => {
 
 <Counter count={10} />
 <Counter count={200} />
-
 ```
 
 <Counter id="bcwbcew" :count=10 mt='10'/>
