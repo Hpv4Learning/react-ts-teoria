@@ -232,8 +232,8 @@ const Counter:React.FC<{count?: number}> = (props) => {
 <Counter count={200} />
 ```
 
-<Counter count=10 mt='10'/>
-<Counter count=100 mt='10'/>
+<Counter :count=10 mt='10'/>
+<Counter :count=100 mt='10'/>
 <!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
 <script setup lang="ts">
 const final = {
@@ -351,7 +351,6 @@ La maggior parte delle volte, quando si utilizza React, si fa uso di un pacchett
     Not only web
   </div>
 </div>
-
 
 ::right::
 
