@@ -7,6 +7,8 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": `/src`,
+      "@lezioni": `/src/lezioni`,
+      "@assets": `/src/assets`,
     },
   },
 })
