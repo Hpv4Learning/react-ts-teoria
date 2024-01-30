@@ -177,6 +177,7 @@ Che cosa è React? Perché è così popolare? Come funziona?
 </div>
 
 ---
+preload: false
 transition: fade-out
 layout: two-cols
 class: px-2
