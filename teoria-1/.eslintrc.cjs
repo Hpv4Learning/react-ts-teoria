@@ -84,6 +84,7 @@ module.exports = {
     "import/extensions": 0,
     "import/no-anonymous-default-export": 2,
     "react/jsx-one-expression-per-line": 0,
+    "react/destructuring-assignment": 0,
     "react/no-danger": 0,
     "react/display-name": 0,
     "react/react-in-jsx-scope": 0,
