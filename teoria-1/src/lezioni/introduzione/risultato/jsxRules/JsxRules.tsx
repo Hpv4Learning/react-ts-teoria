@@ -1,3 +1,4 @@
+// import reactLogo from "@assets/react.svg"
 import style from "./JsxRules.module.css"
 
 /*
@@ -28,6 +29,8 @@ const Article = () => (
     className={style.card}
   >
     <img src="https://picsum.photos/200" alt="random" />
+    {/* <img src={reactLogo} className="logo react" alt="React logo" /> */}
+
     <TextContent />
   </article>
 )

@@ -34,9 +34,9 @@ const Article = () => (
   </article>
 )
 
-export const Tailwind = () => (
+export const PropsObject = () => (
   <section className="flex flex-col place-items-center">
-    <h1 className="text-5xl font-bold">Tailwind</h1>
+    <h1 className="text-5xl font-bold">Props Object</h1>
     <div className="flex mt-4 gap-4">
       <Article />
       <Article />

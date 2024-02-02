@@ -15,3 +15,5 @@
 /* Crea il tuo componente JsxRules
     rfce
 */
+
+export {}
